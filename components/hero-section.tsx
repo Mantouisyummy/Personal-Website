@@ -104,7 +104,7 @@ export function HeroSection() {
               </Button>
               <Button variant="outline" size="icon" asChild>
                 <Link
-                  href="https://github.com"
+                  href="https://github.com/Mantouisyummy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -113,7 +113,7 @@ export function HeroSection() {
                 </Link>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <Link href="mailto:contact@example.com">
+                <Link href="mailto:me@mantou.dev">
                   <Mail className="h-4 w-4" />
                   <span className="sr-only">Email</span>
                 </Link>

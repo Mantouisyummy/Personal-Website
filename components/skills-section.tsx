@@ -116,6 +116,17 @@ const skills: Skill[] = [
     ),
   },
   {
+    name: "Flask",
+    icon: (
+      <Image
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
+        alt="Flask"
+        width={24}
+        height={24}
+      />
+    ),
+  },
+  {
     name: "Flutter",
     icon: (
       <Image
@@ -264,6 +275,28 @@ const skills: Skill[] = [
       <Image
         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
         alt="MongoDB"
+        width={24}
+        height={24}
+      />
+    ),
+  },
+  {
+    name: "SQLAlchemy",
+    icon: (
+      <Image
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg"
+        alt="SQLAlchemy"
+        width={24}
+        height={24}
+      />
+    ),
+  },
+  {
+    name: "MySQL",
+    icon: (
+      <Image
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+        alt="MySQL"
         width={24}
         height={24}
       />

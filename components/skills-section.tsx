@@ -302,6 +302,17 @@ const skills: Skill[] = [
       />
     ),
   },
+  {
+    name: "Arduino",
+    icon: (
+      <Image
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg"
+        alt="Arduino"
+        width={24}
+        height={24}
+      />
+    ),
+  },
 ];
 
 export function SkillsSection() {
@@ -331,13 +342,19 @@ export function SkillsSection() {
         "React",
         "Next.js",
         "FastAPI",
+        "Flask",
         "Flutter",
         "Tailwind CSS",
+        "Arduino",
       ],
     },
     {
       category: "資料庫",
-      skills: ["MongoDB", "Redis", "SQLite", "Supabase", "Prisma"],
+      skills: ["MongoDB", "Redis", "SQLite", "Supabase", "MySQL"],
+    },
+    {
+      category: "資料庫工具",
+      skills: ["Prisma", "SQLAlchemy"],
     },
     {
       category: "工具與平台",
